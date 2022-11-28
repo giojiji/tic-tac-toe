@@ -1,0 +1,215 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    background-color:#1A2A33;;
+  }
+  section {
+   display: flex;
+   width: 30%;
+   height: 50%;
+   flex-wrap: wrap;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  }
+  
+  .tictactoe{
+    height: 30%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 350%;
+    border-radius: 10%;
+    background: #1F3641;
+    box-shadow: inset 0px -8px 0px #10212A;
+    font-family: Arial, Helvetica, sans-serif;
+  } 
+
+
+  #rezultatebi{
+    width: 30%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #playeronepoint{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background: #31C3BD;
+    width: 30%;
+    height: 90%;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  #playertwopoint{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background: #F2B137;
+    width: 30%;
+    height: 90%;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  #drawpoint{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background: #A8BFC9;
+    width: 30%;
+    height: 90%;
+    text-align: center;
+  }
+
+  #turn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 30%;
+    height: 100%;
+    background: #1F3641;
+    box-shadow: inset 0px -4px 0px #10212A;
+    border-radius: 10px;
+    color: #A8A8A8;
+    text-align: center;
+  }
+
+  #header{
+    width: 30%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+  }
+
+  #end{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    left: 0px;
+    top: 35%;
+    background: #1F3641;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    font-size: 500%;
+    color: #FFC860;
+    opacity: 0.95;
+  }
+
+  #restart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 12%;
+    height: 100%;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 0px 1px 2px #000000;
+    cursor: pointer;
+  }
+
+  #reloadgaming{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 12%;
+    height: 100%;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 0px 1px 2px #000000;
+    cursor: pointer;
+  }
+
+  #signs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 30%;
+    height: 100%;
+    background: #1A2A33;
+  }
+
+  span{
+    font-weight: bold;
+    margin: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+  }
+
+  #startgames{
+    position: absolute;
+    width: 98%;
+    height: 63%;
+    left: 0px;
+    top: 16%;
+    background: #1F3641;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 500%;
+    color: #FFC860;
+    opacity: 0.95;
+    gap: 10%;
+    padding: 1%;
+  }
+
+  button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 20%;
+    background-color: #2e6584;
+    border-radius: 25px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 25%;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  button:hover{
+    background-color: #31C3BD;
+    color: #000000;
+  }
+
+  input{
+    width: 10%;
+    height: 10%;
+    color: #ffffff;
+    font-weight: bold;
+    display: none;
+    background-color: #030505;
+  }
+
+  

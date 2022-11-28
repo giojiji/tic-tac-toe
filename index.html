@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+  
+</head>
+<body>
+    <div id="header">
+    <div id="signs"> <span style="color:#31C3BD">X</span> <span style="color:#F2B137">O</span></div>
+    <div id="turn">start game</div>
+    <div id="restart" onclick="restargame()">
+      <img src="images/arrows-rotate-solid.svg" alt="restart" width="30%">
+    </div>
+    <div id="reloadgaming" onclick="reloadgame()">
+    <img src="images/power-off-solid.svg" alt="reload" alt=""  width="30%" >
+  </div>
+  </div>
+  
+    <section id=""  onclick="myFunction(event)">
+       <nav id="startgames">
+    <button id="orimotamashe">two player</button>
+    <input type="text" value="" placeholder="player X"  id="playeronex">
+    <input type="text" value=""  placeholder="player O" id="playertwoo">
+    <button id="kompiuteri">vs com</button>
+    <button id="tamashisdawyeba"  onclick="begingame()">Start game</button>
+       </nav>
+      <div id="one" class="tictactoe" value=0 ></div> 
+      <div id="two" class="tictactoe" value=1 ></div>
+      <div id="three" class="tictactoe" value=2 ></div>
+      <div id="four" class="tictactoe" value=3  ></div>
+      <div id="five" class="tictactoe" value=4 ></div>
+      <div id="six" class="tictactoe" value=5 ></div>
+      <div id="seven" class="tictactoe" value=6 ></div>
+      <div id="eight" class="tictactoe" value=7 ></div>
+      <div id="nine" class="tictactoe" value=8 ></div>
+      </section>
+    
+      <div id="rezultatebi">
+        <div id="playeronepoint">player X <br> 0</div>
+        <div id="drawpoint">TIES <br>0</div>
+        <div id="playertwopoint">player O <br>0</div>
+      </div>
+
+      <div id="end"></div>
+
+    </body>
+<script src="index.js"></script>
+</html>
